@@ -1,0 +1,17 @@
+{
+    "cluster_config":{
+        "number_of_clusters" : 3,
+        "affinity" : "euclidean",
+        "linkage" : "ward",
+        "method" : "ward",
+        "segment" : 50
+    },
+    "db_config":{
+        "username" : "988eb4980904d42862f7dc9d4eed52469312ac20",
+        "password" : "a24ed46858bbedea187b2e9a7f8bbc6d86a14e9a",
+        "time_wait" : 900,
+        "index_name" : "snort-2022.07",
+        "src_ip_addresses" : ["most_freq"]
+    }
+}
+
